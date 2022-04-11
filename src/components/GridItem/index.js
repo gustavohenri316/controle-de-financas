@@ -10,7 +10,8 @@ const GridItem = ({ item, onDelete }) => {
   return (
     <C.Tr>
       <C.Td>{item.desc}</C.Td>
-      <C.Td>{item.amount}</C.Td>
+      <C.Td> <label>R$ </label>{item.amount}</C.Td>
+      <C.Td style={{paddingLeft: '10%'}}>{item.pay}</C.Td>
       <C.Td alignCenter>
         {item.expense ? (
           "Saída", <FaRegArrowAltCircleDown color="red" />

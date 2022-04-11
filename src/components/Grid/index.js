@@ -13,8 +13,9 @@ const Grid = ({ itens, setItens }) => {
     <C.Table>
       <C.Thead>
         <C.Tr>
-          <C.Th width={40}>Descrição</C.Th>
-          <C.Th width={40}>Valor</C.Th>
+          <C.Th width={28}>Descrição</C.Th>
+          <C.Th width={10}>Valor</C.Th>
+          <C.Th  style={{paddingLeft: '10%'}}  width={40}>Forma de Pagamento</C.Th>
           <C.Th width={10} alignCenter>
             Tipo
           </C.Th>
